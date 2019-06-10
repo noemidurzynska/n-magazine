@@ -12,6 +12,7 @@ import { TablesComponent } from './tables/tables.component';
 import { FormsComponent } from './forms/forms.component';
 import { PaymentComponent } from './payment/payment.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,7 @@ import { PaymentComponent } from './payment/payment.component';
     StatisticsComponent,
     TablesComponent,
     FormsComponent,
-    PaymentComponent
+    PaymentComponent,
   ],
   imports: [
     BrowserModule,

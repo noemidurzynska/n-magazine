@@ -11,6 +11,8 @@ import { StatisticsComponent } from './statistics/statistics.component';
 import { TablesComponent } from './tables/tables.component';
 import { FormsComponent } from './forms/forms.component';
 import { PaymentComponent } from './payment/payment.component';
+import { TravelMountainComponent } from './travel/travel-mountain/travel-mountain.component';
+import { TravelLandscapeComponent } from './travel/travel-landscape/travel-landscape.component';
 
 
 @NgModule({
@@ -23,6 +25,8 @@ import { PaymentComponent } from './payment/payment.component';
     TablesComponent,
     FormsComponent,
     PaymentComponent,
+    TravelMountainComponent,
+    TravelLandscapeComponent,
   ],
   imports: [
     BrowserModule,

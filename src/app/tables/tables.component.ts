@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TablesComponent implements OnInit {
 
+  public writeyournote = '';
   constructor() { }
 
   ngOnInit() {
+    this.writeyournote = 'N O T E';
   }
 
 }

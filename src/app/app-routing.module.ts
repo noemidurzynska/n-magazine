@@ -10,6 +10,7 @@ import { PaymentComponent } from './payment/payment.component';
 import { TravelMountainComponent } from './travel/travel-mountain/travel-mountain.component';
 import { TravelLandscapeComponent } from './travel/travel-landscape/travel-landscape.component';
 import { AboutComponent } from './about/about.component';
+import { FaqComponent } from './faq/faq.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -22,11 +23,13 @@ const routes: Routes = [
   {path: 'payment', component: PaymentComponent},
   {path: 'travel-mountain', component: TravelMountainComponent},
   {path: 'travel-landscape', component: TravelLandscapeComponent},
-  {path: 'about', component: AboutComponent}
+  {path: 'about', component: AboutComponent},
+  {path: 'faq', component: FaqComponent}
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
+
 })
 export class AppRoutingModule { }

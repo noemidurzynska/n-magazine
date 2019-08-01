@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { PaymentComponent } from './payment/payment.component';
 import { TravelMountainComponent } from './travel/travel-mountain/travel-mountain.component';
 import { TravelLandscapeComponent } from './travel/travel-landscape/travel-landscape.component';
 import { AboutComponent } from './about/about.component';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -27,11 +29,13 @@ import { AboutComponent } from './about/about.component';
     PaymentComponent,
     TravelMountainComponent,
     TravelLandscapeComponent,
-    AboutComponent
+    AboutComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [
     { provide: LocationStrategy, useClass: HashLocationStrategy }

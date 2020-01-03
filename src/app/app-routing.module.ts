@@ -11,6 +11,7 @@ import { TravelMountainComponent } from './travel/travel-mountain/travel-mountai
 import { TravelLandscapeComponent } from './travel/travel-landscape/travel-landscape.component';
 import { AboutComponent } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
+import { StronaComponent } from './strona/strona.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -24,7 +25,8 @@ const routes: Routes = [
   {path: 'travel-mountain', component: TravelMountainComponent},
   {path: 'travel-landscape', component: TravelLandscapeComponent},
   {path: 'about', component: AboutComponent},
-  {path: 'faq', component: FaqComponent}
+  {path: 'faq', component: FaqComponent},
+  {path: 'Strona', component: StronaComponent}
 ];
 
 @NgModule({

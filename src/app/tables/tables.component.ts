@@ -11,7 +11,7 @@ export class TablesComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.writeyournote = 'N O T E';
+    this.writeyournote = 'h e l l o';
   }
 
 }

@@ -16,6 +16,7 @@ import { TravelMountainComponent } from './travel/travel-mountain/travel-mountai
 import { TravelLandscapeComponent } from './travel/travel-landscape/travel-landscape.component';
 import { AboutComponent } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
+import { StronaComponent } from './strona/strona.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FaqComponent } from './faq/faq.component';
     TravelMountainComponent,
     TravelLandscapeComponent,
     AboutComponent,
-    FaqComponent
+    FaqComponent,
+    StronaComponent
   ],
   imports: [
     BrowserModule,
